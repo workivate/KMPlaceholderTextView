@@ -12,6 +12,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "KMPlaceholderTextView"),
+            name: "KMPlaceholderTextView"
+            exclude: ["KMPlaceholderTextView/Info.plist"]
+        ),
     ]
 )
