@@ -8,10 +8,13 @@ let package = Package(
     products: [
         .library(
             name: "KMPlaceholderTextView",
-            targets: ["KMPlaceholderTextView"]),
+            targets: ["KMPlaceholderTextView"]
+        ),
     ],
     targets: [
         .target(
-            name: "KMPlaceholderTextView"),
+            name: "KMPlaceholderTextView",
+            exclude: ["Info.plist"]
+        ),
     ]
 )
